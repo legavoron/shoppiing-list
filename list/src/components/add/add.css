@@ -1,0 +1,38 @@
+.add{
+    margin-top: 15px;
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.add__h1{
+    font-size: 1.15rem;
+    margin-bottom: 15px;
+}
+.add__container{
+    display: flex;
+
+}
+.add input{
+    margin-right: 15px;
+}
+.add button{
+    border: none;
+    border-radius: 4px;
+    margin-left: 15px;
+    background-color: #3d5a80;
+    color: #fff;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.add select{
+    border: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0px 15px;
+}

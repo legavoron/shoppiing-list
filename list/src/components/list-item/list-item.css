@@ -1,0 +1,68 @@
+.listItem{
+    margin-top: 15px;
+    list-style-type: none;
+    color: #333435;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+    border: #e7e9eb 2px solid;
+}
+.listItem__name{
+    min-width: 44%;
+    
+}
+.listItem__name_purchased{
+    text-decoration: line-through;
+}
+.listItem__num{
+    min-width: 4%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.listItem input{
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.listItem_select{
+    min-width: 15.3%;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.listItem_select option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listItem__btn{
+    min-width: 2em;
+    height: 2em;
+    padding: 0px 15px;
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_done{
+    margin: 0 15px;
+}
+.btn_delete{
+    margin: 0;
+}
+.listItem__btn:active {
+    background-color: rgb(182, 213, 248);
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}
